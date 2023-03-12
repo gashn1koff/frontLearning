@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFE2B0;
 }
@@ -43,4 +47,34 @@ nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.section-about__block {
+    height: 190px;
+    width: 420px;
+    background: linear-gradient(180deg, rgba(234, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
+    position: absolute;
+    top: 349px;
+    left: 730px;
+    padding-top: 15px;
+}
+
+.section-about__border {
+    height: 160px;
+    width: 390px;
+    border: #000 1px solid;
+    margin: 0 auto;
+    text-align: left;
+    padding: 17px 0 0 28px;
+}
+
+.section-about__title {
+    font-size: 36px;
+    margin: 0px;
+    margin-bottom: 9px;
+}
+
+.section-about__text {
+    margin: 0px;
 }
