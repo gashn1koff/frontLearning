@@ -15,6 +15,7 @@ ul {
     list-style-type: none;
     text-align: center;
     padding: 0px;
+    margin: 0;
 }
 
 li {
@@ -34,7 +35,6 @@ a {
 
 a:hover {
     color: blueviolet;
-    font-size: 25px;
 }
 
 nav {
@@ -48,6 +48,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .section-about__block {
@@ -55,8 +56,8 @@ nav {
     width: 420px;
     background: linear-gradient(180deg, rgba(234, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
     position: absolute;
-    top: 349px;
-    left: 730px;
+    top: 54%;
+    left: 51%;
     padding-top: 15px;
 }
 
@@ -77,4 +78,66 @@ nav {
 
 .section-about__text {
     margin: 0px;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box img {
+    margin-right: 76px;
+}
+
+.section-description__icon-box img:last-child {
+    margin-right: 0;
+}
+
+.section-description__title {
+    font-size: 96px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description__span {
+    color: rgb(124, 41, 41);
+}
+
+.section-description__description {
+    font-size: 18px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 1000px;
+    text-align: center;
+}
+
+.section-map__title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.section-map {
+    margin-bottom: 20px;
+}
+
+.section-map__map {
+    text-align: center;
+}
+
+hr {
+    margin: 0 auto;
+    border: 0;
+    border: 1px solid #999;
+    width: 1024px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 80px;
 }
